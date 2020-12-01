@@ -14,7 +14,7 @@ name: R-CMD-check
 
 jobs:
   R-CMD-check:
-    runs-on: [ubuntu-latest, windows-latest]
+    runs-on: ubuntu-latest
       #- ${{ matrix.config.os }}
       #- ubuntu-latest
       #- ubuntu-18.04
