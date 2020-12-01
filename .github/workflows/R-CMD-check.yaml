@@ -14,15 +14,15 @@ name: R-CMD-check
 
 jobs:
   R-CMD-check:
-    runs-on:
-      - ${{ matrix.config.os }}
-      - ubuntu-latest
-      - ubuntu-18.04
+    runs-on: windows-latest
+      #- ${{ matrix.config.os }}
+      #- ubuntu-latest
+      #- ubuntu-18.04
 
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
 
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         config:
           - {os: windows-latest, r: 'release'}
