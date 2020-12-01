@@ -3,7 +3,7 @@
 ![](misc/imgfile.png)
 
 <!-- badges: start -->
-[![R build status](https://github.com/jpiversen/magimisc/workflows/R-CMD-check/badge.svg)](https://github.com/jpiversen/magimisc/actions)
+[![R build status](https://github.com/jpiversen/magimisc/workflows/R-CMD-check/badge.svg)](https://github.com/esverd2/magimisc/actions)
 <!-- badges: end -->
 
 
